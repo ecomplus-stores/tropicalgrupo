@@ -163,6 +163,40 @@ if (header.categories_list) {
           role="group"
           aria-label="<%= _.dictionary('myAccount') %>"
         >
+          <a href="/" class="d-none d-md-inline" id="central">
+            <span style="bottom: .3rem;
+              display: inline-block;
+              position: relative;
+            ">
+              <img style="width: 30px" src="/img/uploads/iconfinder_phone-outline_353432.png" alt="Central Telefonica">
+            </span>
+            <span style="
+              width: 50%;
+              display: inline-block;
+              top: .5rem;
+              position: relative;
+            ">
+              <strong>Central de Atendimento</strong>
+            </span>
+          </a>
+
+          <a href="/" class="d-none d-md-inline" id="televendas">
+            <span style="bottom: .3rem;
+              display: inline-block;
+              position: relative;
+            ">
+              <img style="height: 30px" src="/img/uploads/iconfinder_aiga_telephone_134148.png" alt="Televendas">
+            </span>
+            <span style="
+              width: 50%;
+              display: inline-block;
+              top: .5rem;
+              position: relative;
+            ">
+              <strong>Televendas</strong> <span>62 0000-0000</span>
+            </span>
+          </a>
+
           <button
             class="d-lg-none btn btn-lg"
             id="mobile-search-btn"
@@ -184,7 +218,12 @@ if (header.categories_list) {
             href="/app/#/account/"
             title="<%= _.dictionary('myAccount') %>"
           >
-            <i class="fas fa-user"></i>
+          <span class="d-none d-md-inline" id="usuario-desk">
+            <img style="height: 20px" src="/img/uploads/iconfinder_User_4200769.png" alt="Usuario">
+            <br>
+            <span>Minha Conta</span>
+          </span>
+            <i class="fas fa-user d-md-none"></i>
           </a>
           <a
             id="cart-button"
@@ -228,7 +267,7 @@ if (header.categories_list) {
             <input
               type="search"
               name="term"
-              placeholder="<%= _.dictionary('searchProducts') %>"
+              placeholder="O que você procura?"
               aria-label="<%= _.dictionary('searchProducts') %>"
               class="header__search-input form-control"
               id="search-input"
@@ -264,6 +303,8 @@ if (header.categories_list) {
           <% } %>
         </div>
       <% } %>
+
+
 
       <% if (categories && categories.length) { %>
         <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">

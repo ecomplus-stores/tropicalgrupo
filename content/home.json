@@ -7,15 +7,9 @@
       "autoplay": 9000,
       "slides": [
         {
-          "img": "/img/uploads/rect89.webp",
-          "link": "/headset",
-          "alt": "Headset banner",
-          "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z"
-        },
-        {
-          "img": "/img/uploads/banner2.webp",
-          "alt": "Banner sample two",
+          "img": "/img/uploads/banner-principal.jpg",
+          "link": "/",
+          "alt": "Tropical Banhos",
           "start": "",
           "end": ""
         }
@@ -23,7 +17,36 @@
     },
     {
       "type": "info-bar",
-      "enabled": true
+      "enabled": false
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/tarja.png",
+      "alt": "Tarja Frete",
+      "mobile_img": ""
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/mini-banner.jpg",
+          "alt": "",
+          "link": "",
+          "mobile_img": ""
+        },
+        {
+          "img": "/img/uploads/mini-banner.jpg",
+          "alt": "",
+          "link": "",
+          "mobile_img": ""
+        },
+        {
+          "img": "/img/uploads/mini-banner.jpg",
+          "alt": "",
+          "link": "",
+          "mobile_img": ""
+        }
+      ]
     },
     {
       "type": "collection-shelf",

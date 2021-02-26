@@ -1,1 +1,44 @@
 // Add your custom CSS here.
+.top-bar {
+  &__countdown {
+    background: #006346 !important;
+    &::after {
+      content:"CLIQUE AQUI.";
+      color:#fff;
+      font-weight: bold !important;
+    }
+  }
+  &__nav {
+    display: none !important;
+  }
+}
+.header {
+  &__search {
+    border: .5px solid #cbcbcb;
+    border-radius: 0
+  }
+}
+#central, #televendas, #usuario-desk {
+  display: inline-block !important;
+  position: relative;
+}
+#televendas {
+  right: 2rem;
+}
+#usuario-desk {
+  bottom: .5rem;
+  font-size: 1rem;
+  right: 5rem;
+}
+
+.banner-slider {
+  max-width: 100%;
+  max-height: calc(100rem*var(--banner-aspect-ratio))
+}
+.banner-slider + .responsive-baner {
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+  margin-top: 0 !important;
+}
