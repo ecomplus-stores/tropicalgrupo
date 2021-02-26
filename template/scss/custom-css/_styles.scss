@@ -34,12 +34,13 @@
 .banner-slider {
   max-width: 100%;
   max-height: calc(100rem*var(--banner-aspect-ratio))
-  & + .responsive-baner {
-    margin-top: 0 !important;
+}
+.banner-slider + .responsive-baner {
+    
   .container {
     max-width: 100%;
     padding: 0;
   }
-}
+  margin-top: 0 !important;
 }
 
