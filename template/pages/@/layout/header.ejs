@@ -233,7 +233,14 @@ if (header.categories_list) {
             href="/app/#/cart"
             title="<%= _.dictionary('openCart') %>"
           >
-            <i class="fas fa-shopping-bag"></i>
+            <i class="fas fa-shopping-bag d-md-none"></i>
+            <span id="carrinho" style="bottom: .7rem;
+              display: inline-block;
+              position: relative;
+            ">
+              <img style="height: 30px" src="/img/uploads/cart.png" alt="Carrinho">
+              <span style="color: #DB7C4D; font-size: .7rem; bottom: .7rem; position: relative;font-weight: bold">MEU CARRINHO</span>
+            </span>
             <span id="cart-count" class="badge badge-primary"></span>
           </a>
         </div>
@@ -305,19 +312,17 @@ if (header.categories_list) {
         </div>
       <% } %>
 
-
-
-      <% if (categories && categories.length) { %>
-        <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
-          <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-            <% categories.forEach(({ slug, name }) => { %>
-              <a href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
-                <%= ` ${name} ` %>
-              </a>
-            <% }) %>
-          </nav>
-        </div>
-      <% } %>
     </div>
   </div>
 </header>
+<% if (categories && categories.length) { %>
+  <div id="menu" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
+    <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
+      <% categories.forEach(({ slug, name }) => { %>
+        <a href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
+          <%= ` ${name} ` %>
+        </a>
+      <% }) %>
+    </nav>
+  </div>
+<% } %>

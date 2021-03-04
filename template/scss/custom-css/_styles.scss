@@ -18,17 +18,24 @@
     border-radius: 0
   }
 }
-#central, #televendas, #usuario-desk {
-  display: inline-block !important;
-  position: relative;
+@media(min-width: 767px) {
+  #central, #televendas, #usuario-desk {
+    display: inline-block !important;
+    position: relative;
+  }
+  #televendas {
+    right: 2rem;
+  }
+  #usuario-desk {
+    bottom: .3rem;
+    font-size: 1rem;
+    right: 5rem;
+  }
 }
-#televendas {
-  right: 2rem;
-}
-#usuario-desk {
-  bottom: .5rem;
-  font-size: 1rem;
-  right: 5rem;
+@media(max-width: 767px) {
+  #central, #televendas, #usuario-desk, #carrinho {
+    display: none !important;
+  }
 }
 
 .banner-slider {
@@ -36,11 +43,42 @@
   max-height: calc(100rem*var(--banner-aspect-ratio))
 }
 .banner-slider + .responsive-baner {
-    
+
   .container {
     max-width: 100%;
     padding: 0;
   }
   margin-top: 0 !important;
 }
+#menu {
+  padding: 7px 5px;
+  background: #006346!important;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+}
+.brands-carousel {
+  .fas.fa-arrow-left::before {
+    content: url('/img/uploads/iconfinder_left_4829874.png') !important;
+    background-size: 100% 100%;
+  }
+  .fas.fa-arrow-right::before {
+    content: url('/img/uploads/iconfinder_right_4829872.png') !important;
+    background-size: 100% 100%;
+  }
+}
+@media(min-width: 767px) {
+  #cart-count {
+    background: transparent;
+    color: #006346;
+    position: absolute;
+    top: 30px;
+    right: 13px;
+    font-size: .55rem;
 
+    &::after {
+      content: " PRODUTO(S)"
+    }
+  }
+}
