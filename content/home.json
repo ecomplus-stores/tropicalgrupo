@@ -26,6 +26,13 @@
       "mobile_img": ""
     },
     {
+      "type": "brands-carousel",
+      "limit": 24,
+      "offset": 0,
+      "sort": null,
+      "autoplay": 1000
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
