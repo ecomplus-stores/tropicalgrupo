@@ -5,11 +5,11 @@
   },
   "links_1": {
     "list_pages": true,
-    "title": "Páginas",
+    "title": "Ajuda",
     "list": []
   },
   "links_2": {
-    "list_categories": true,
+    "list_categories": false,
     "title": "Categorias",
     "list": []
   },
@@ -42,5 +42,5 @@
     "mais": false,
     "itau": true
   },
-  "credits": ""
+  "credits": "Tropical Grupo"
 }

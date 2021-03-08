@@ -82,3 +82,61 @@
     }
   }
 }
+body, em, span, strong, p, b, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+.header__buttons span {
+  font-size: .9rem
+}
+.footer__title, .footer__subtitle {
+  color: #626262;
+  font-weight: bold
+}
+.footer__subtitle {
+  margin-bottom: .4rem !important
+}
+.contacts-phone {
+  margin-bottom: .3rem
+}
+.footer__store {
+  margin-bottom: 0 !important;
+  line-height: 1.5 !important;
+}
+@media(min-width: 767px) {
+  .footer__contacts {
+    float: right;
+  }  
+}
+
+#marcas {
+  background: #006346;
+  padding: 10px;
+  align-items: center;
+  ul {
+    margin-bottom: 0;
+    @media(min-width: 767px) {
+      flex-direction: row
+    }
+    @media(max-width: 767px) {
+      flex-direction: column;
+    }
+  }
+  h4 {
+    color: #fff;
+  }
+}
+.footer .container {
+  max-width: 100%;
+  .row {
+    margin-bottom: 1rem;
+  }
+}
+#normal {
+  padding-left: 15px;
+  padding-right: 15px
+}
+#footer-final {
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
