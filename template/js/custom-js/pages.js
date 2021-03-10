@@ -1,1 +1,10 @@
 // Add your custom JavaScript for storefront pages here.
+const banner1 = document.querySelector('.page--home .banner-3 + div + .banner-3 > div > div > div')
+banner1.classList.remove('col-lg-4')
+banner1.classList.add('col-lg-6')
+const banner2 = document.querySelector('.page--home .banner-3 + div + .banner-3 > div > div > div:nth-child(2)')
+banner2.classList.remove('col-lg-4')
+banner2.classList.add('col-lg-6')
+const banner3 = document.querySelector('.page--home .banner-3 + div + .banner-3 > div > div > div:last-child > .banner')
+console.log(banner3)
+banner2.insertAdjacentElement('beforeend', banner3)

@@ -1,4 +1,7 @@
 // Add your custom CSS here.
+body, em, span, strong, p, b, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
 .top-bar {
   &__countdown {
     background: #006346 !important;
@@ -22,6 +25,9 @@
   #central, #televendas, #usuario-desk {
     display: inline-block !important;
     position: relative;
+    span {
+      font-family: sans-serif !important;
+    }
   }
   #televendas {
     right: 2rem;
@@ -82,11 +88,9 @@
     }
   }
 }
-body, em, span, strong, p, b, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-}
 .header__buttons span {
-  font-size: .9rem
+  font-size: .9rem;
+
 }
 .footer__title, .footer__subtitle {
   color: #626262;
@@ -105,7 +109,7 @@ body, em, span, strong, p, b, h1, h2, h3, h4, h5, h6 {
 @media(min-width: 767px) {
   .footer__contacts {
     float: right;
-  }  
+  }
 }
 
 #marcas {
@@ -139,4 +143,21 @@ body, em, span, strong, p, b, h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-around;
   align-items: center
+}
+.page--home .banner-3 + div + .banner-3 > div > div > div:nth-child(2) > .banner {
+  padding-bottom: .2rem;
+}
+.page--home .banner-3 + div + .banner-3 > div > div > div {
+  padding-right: 0 !important
+}
+.products-carousel__title {
+  text-align: left;
+  &:after {
+    content: ' ver +';
+    margin-left: 1rem;
+    font-style: italic;
+  }
+  &:before {
+    position: static;
+  }
 }
