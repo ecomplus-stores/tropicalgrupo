@@ -386,6 +386,12 @@
     </url>
   
     <url>
+      <loc>https://tropicalgrupo.netlify.app/tropical</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://tropicalgrupo.netlify.app/pages/contato</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -452,25 +458,25 @@
     </url>
   
     <url>
-      <loc>https://tropicalgrupo.netlify.app/search</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://tropicalgrupo.netlify.app/</loc>
       <changefreq>daily</changefreq>
       <priority>1</priority>
     </url>
   
     <url>
-      <loc>https://tropicalgrupo.netlify.app/app/index</loc>
+      <loc>https://tropicalgrupo.netlify.app/search</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/admin/index</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
   
     <url>
-      <loc>https://tropicalgrupo.netlify.app/admin/index</loc>
+      <loc>https://tropicalgrupo.netlify.app/app/index</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
