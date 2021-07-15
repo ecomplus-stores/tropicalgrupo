@@ -386,6 +386,30 @@
     </url>
   
     <url>
+      <loc>https://tropicalgrupo.netlify.app/peneiras</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/aspirador_para_piscina</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/aquecimento_solar_fluidra</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/controlador_de_temperatura</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://tropicalgrupo.netlify.app/tropical</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
