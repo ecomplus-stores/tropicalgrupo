@@ -8,13 +8,13 @@
     </url>
   
     <url>
-      <loc>https://tropicalgrupo.netlify.app/tropical</loc>
+      <loc>https://tropicalgrupo.netlify.app/sibrape</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>https://tropicalgrupo.netlify.app/sibrape</loc>
+      <loc>https://tropicalgrupo.netlify.app/tropical</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -74,13 +74,13 @@
     </url>
   
     <url>
-      <loc>https://tropicalgrupo.netlify.app/pages/trocas</loc>
+      <loc>https://tropicalgrupo.netlify.app/pages/termos</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://tropicalgrupo.netlify.app/pages/termos</loc>
+      <loc>https://tropicalgrupo.netlify.app/pages/trocas</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
