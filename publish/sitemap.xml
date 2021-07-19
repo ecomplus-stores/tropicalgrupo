@@ -254,6 +254,12 @@
     </url>
   
     <url>
+      <loc>https://tropicalgrupo.netlify.app/cascata_de_pvc</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://tropicalgrupo.netlify.app/sibrape</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
