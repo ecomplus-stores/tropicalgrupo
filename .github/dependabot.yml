@@ -1,0 +1,27 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+  open-pull-requests-limit: 10
+  labels:
+  - dependencies
+  - automerge
+  allow:
+  - dependency-name: "@ecomplus/storefront-template"
+  - dependency-name: "@ecomplus/storefront-renderer"
+  ignore:
+  - dependency-name: "@ecomplus/storefront-renderer"
+    versions:
+    - 2.4.12
+    - 2.4.15
+    - 2.6.1
+  - dependency-name: "@ecomplus/storefront-template"
+    versions:
+    - 2.0.0-beta.111
+    - 2.0.0-beta.112
+  commit-message:
+    prefix: fix
+    include: scope
