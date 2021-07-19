@@ -188,6 +188,72 @@
     </url>
   
     <url>
+      <loc>https://tropicalgrupo.netlify.app/borda</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/borda_azul_royal</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/borda_creme_acetinado</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/cantoneira</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/inox</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/pecas_de_reposicao_para_cercas</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/termostato</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/adaptador</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/adaptadores_para_mangueiras</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/adaptador_para_led</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://tropicalgrupo.netlify.app/reposicao_de_dispositivo</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://tropicalgrupo.netlify.app/sibrape</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
