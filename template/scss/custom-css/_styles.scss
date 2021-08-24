@@ -44,10 +44,6 @@ body, em, span, strong, p, b, h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.banner-slider {
-  max-width: 100%;
-  max-height: calc(100rem*var(--banner-aspect-ratio))
-}
 .banner-slider + .responsive-baner {
 
   .container {
@@ -85,6 +81,12 @@ body, em, span, strong, p, b, h1, h2, h3, h4, h5, h6 {
 
     &::after {
       content: " PRODUTO(S)"
+    }
+    
+    .banner-slider {
+      max-width: 100%;
+      --banner-aspect-ratio: 1 !important;
+      height: auto
     }
   }
 }
